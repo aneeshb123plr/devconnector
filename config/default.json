@@ -1,3 +1,6 @@
 {
-    "mongoURI": "mongodb+srv://aneesh:aneesh@devconnector-sekiq.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://aneesh:aneesh@devconnector-sekiq.mongodb.net/mydb?retryWrites=true&w=majority",
+    "jwtSecret":"mysecrettoken",
+    "githubclientid":"956067eb18a50a7fe59b",
+    "githubclientsecret":"7a6ab8ebae8a4058405b381531b26ecd2f53fa2e"
 }

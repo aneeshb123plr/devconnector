@@ -6,8 +6,15 @@ import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
+
+// Redux
+
+import { Provider } from 'react-redux';
+import store from './store';
 const App = () => {
   return (
+    <Provider store = {store}>
     <Router>
     <Fragment>
      <Navbar/>
@@ -21,6 +28,7 @@ const App = () => {
        </section>
     </Fragment>
     </Router>
+    </Provider>
   );
 }
 
